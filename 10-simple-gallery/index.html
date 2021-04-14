@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="style.css">
+    </head>
+
+    <body>
+        <div style = "text-align:center">
+            <h2> Image Gallery</h2>
+            <p> Click on image to enlarge </p>
+        </div>
+
+        <div class="row">
+            <div class="column">
+                <img class="image" src = "car1.jpg" alt="Car1" style="width:100%">
+            </div>
+
+            <div class="column">
+                <img class="image" src = "car2.jpg" alt="Car2" style="width:100%">
+            </div>
+
+            <div class="column">
+                <img class="image" src = "car3.jpg" alt="Car3" style="width:100%">
+            </div>            
+
+            <div class="column">
+                <img class="image" src = "car4.jpg" alt="Car4" style="width:100%">
+            </div>            
+        </div>
+
+        <div class="container">
+            <span class="closebtn">&times;</span>
+            <img id="expandedImg" style="width:100%">
+            <div id="imgtext"></div>
+        </div>
+        <script src="app.js"></script>
+    </body>
+</html>
