@@ -1,0 +1,19 @@
+#current-time {
+    display: inline-block;
+    font-weight: bold;
+    text-align: center;
+    width: 200px;
+    padding: 10px;
+    border: 1px solid #000000;
+    visibility: hidden;
+}
+
+#clock {
+    padding: 10px;
+    border: 10px double #000000;
+    border-radius: 50%;
+}
+
+.canvas-container {
+    text-align: center;
+}
